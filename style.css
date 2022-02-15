@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    background-color: hsl(257, 40%, 49%);
+}
+header {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./images/bg-mobile.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .header__image--logo {
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+header .header__image--container {
+    margin: 0 auto;
+}
+header .header__image--mockup {
+    width: 250px;
+}
