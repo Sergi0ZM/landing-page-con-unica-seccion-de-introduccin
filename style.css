@@ -32,3 +32,29 @@ header .header__image--container {
 header .header__image--mockup {
     width: 250px;
 }
+.main__section--container {
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+}
+.main__section-container--title{
+    width: 90%;
+    margin: 0 auto;
+}
+.main__section-container--title h1 {
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
+    color: white;
+}
+.main__section-container--title p {
+    padding-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: rgb(224, 222, 222);
+}
+.main__section--button {
+    width: 150px;
+}
